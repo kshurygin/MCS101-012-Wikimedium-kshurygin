@@ -1,0 +1,81 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, blockquote {
+  width: 700px;
+  margin: 0 auto; /* авто-центрирование элемента */
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold
+}
+
+h1 {
+  margin-top: 67px;
+  font-size: 38px;
+  line-height: 43px;
+  }
+
+h1 + p {
+  margin-top: 16px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+img {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+p + img, .photo-author + p {
+  margin-top: 82px;
+}
+
+.photo-author + p {
+  margin-top: 63px;
+}
+
+.photo-author {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 58px;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+p, blockquote {
+  margin-top: 14px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+p + p, p + blockquote {
+  margin-top: 28px;
+}
+
+blockquote + h2 {
+  margin-top: 49px;
+}
