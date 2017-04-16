@@ -1,34 +1,31 @@
-* {
-  box-sizing: border-box;
+article a {
+  text-decoration: underline;
 }
 
-body {
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-font-family: 'PT Sans', sans-serif;
-}
-
-a {
-color: inherit;
-}
-
-h1, h2, h3, p, ul, blockquote {
+article h1,
+article h2,
+article h3,
+article p,
+article ul,
+article blockquote {
 width: 700px;
 margin: 0 auto;
 }
 
-h1, h2, h3 {
+article h1,
+article h2,
+article h3 {
 font-family: 'PT Sans Caption', sans-serif;
 font-weight: bold;
 }
 
-h1 {
+article h1 {
 margin-top: 67px;
 font-size: 38px;
 line-height: 45px;
 }
 
-h1 + p {
+article h1 + p {
 margin-top: 8px;
 font-family: 'PT Sans Caption', sans-serif;
 font-size: 22px;
@@ -36,46 +33,48 @@ line-height: 32px;
 color: rgba(0,0,0,.4);
 }
 
-h1 + p + p {
+article h1 + p + p {
 margin-top: 30px;
 }
 
-h2 {
+article h2 {
 margin-top: 43px;
 font-size: 32px;
 line-height: 36px;
 color: rgba(0, 0, 0, .8);
 }
 
-h2 + p,
-h2 + blockquote {
+article h2 + p,
+article h2 + blockquote {
 margin-top: 7px;
 }
 
-h3 {
+article h3 {
 margin-top: 36px;
 font-size: 28px;
 line-height: 34px;
 color: rgba(0, 0, 0, .8);
 }
 
-h3 + p,
-h3 + blockquote {
+article h3 + p,
+article h3 + blockquote {
 margin-top: 6px;
 }
 
-p, blockquote, li {
+article p,
+article blockquote,
+article li {
 margin-top: 29px;
 font-size: 20px;
 line-height: 34px;
 }
 
-blockquote {
+article blockquote {
 font-style: italic;
 position: relative;
 }
 
-blockquote::before {
+article blockquote::before {
   content: '';
   width: 3px;
   background: black;
@@ -86,32 +85,33 @@ blockquote::before {
   left: -20px;
 }
 
-li {
+article li {
+  margin-top: 16px;
   margin-left: 28px;
   padding-left: 2px;
   list-style-type: disc;
 }
 
-img {
-display: block;
-width: 1020px;
-margin: 79px auto 0;
+article img {
+  display: block;
+  width: 1020px;
+  margin: 79px auto 0;
 }
 
-img + h2 {
-margin-top: 79px;
+article img + h2 {
+  margin-top: 79px;
 }
 
-img + p,
-img + blockquote,
-img + ul {
-margin-top: 77px;
+article img + p,
+article img + blockquote,
+article img + ul {
+  margin-top: 77px;
 }
 
-h2 + img {
-margin-top: 82px;
+article h2 + img {
+  margin-top: 82px;
 }
 
-h3 + img {
-margin-top: 81px;
+article h3 + img {
+  margin-top: 81px;
 }
