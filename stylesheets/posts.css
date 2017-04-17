@@ -3,17 +3,17 @@
   margin: 0 auto;
 }
 
-section#p1 {
-    position: relative;
-    margin-top: 60px;
-}
-
 .posts a {
   display: block;
   padding: 20px;
+  margin-top: 11px;
   background: white;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   border-radius: 5px;
+}
+
+#p1 a {
+  margin-top: 90px;
 }
 
 .posts figure {
@@ -27,14 +27,15 @@ section#p1 {
 .posts h2 {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: bold;
-  font-size: 31px;
-  line-height: 36px;
+  font-size: 29px;
+  line-height: 33px;
 }
 
 .posts p {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 22px;
-  line-height: 32px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 9px;
   color: rgba(0,0,0,.4);
 }
 
