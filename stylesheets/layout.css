@@ -9,9 +9,10 @@ body {
 }
 
 .postsPage {
-  background-image: url(../images/posts_mockup.png);
+  /*background-image: url(../images/posts_mockup.png);
   background-repeat: no-repeat;
-  background-position: center -10px;
+  background-position: center -10px;*/
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 a {

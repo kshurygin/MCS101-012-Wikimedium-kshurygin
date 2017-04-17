@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+section#p1 {
+    position: relative;
+    margin-top: 60px;
+}
+
 .posts a {
   display: block;
   padding: 20px;
@@ -14,7 +19,29 @@
 .posts figure {
   width: 700px;
   height: 200px;
-  background-image: url(../images/narkomfin.jpg);
+  /*background-image: url(../images/narkomfin.jpg);*/
   background-size: cover;
   background-position: center;
+}
+
+.posts h2 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 36px;
+}
+
+.posts p {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0,0,0,.4);
+}
+
+#p1 figure {
+  background-image: url(../images/narkomfin.jpg);
+}
+
+#p2 figure {
+  background-image: url(../images/centrosouz.jpg);
 }
