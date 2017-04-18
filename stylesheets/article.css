@@ -2,6 +2,11 @@ article a {
   text-decoration: underline;
 }
 
+article em {
+  font-weight: bold;
+  font-style: normal;
+}
+
 article h1,
 article h2,
 article h3,
