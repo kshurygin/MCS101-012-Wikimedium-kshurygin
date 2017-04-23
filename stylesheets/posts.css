@@ -26,10 +26,15 @@
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
+  margin-top: 10px;
+}
+
+.posts h2:first-child {
+  margin-top: 0;
 }
 
 .posts p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 22px;
   line-height: 32px;
   margin-top: 9px;
