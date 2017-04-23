@@ -1,23 +1,29 @@
 .menubar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 50px;
   padding: 0 20px;
   background: white;
+  z-index: 1;
 }
 
 .postsPage .menubar,
 .landingPage .menubar {
   position: fixed;
-  top 0;
-  left 0;
   width: 100%;
   z-index: 1;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 
 .landingPage .menubar {
+  min-width: 768px;
   max-width: 1440px;
 }
 

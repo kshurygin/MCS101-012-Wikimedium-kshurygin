@@ -1,0 +1,51 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.small {
+  width: 250px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.large {
+  width: 300px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+.white {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.green {
+  color: #fff;
+  border-color: #00c000;
+  background: #64f364 ;
+  background: linear-gradient(to bottom, #64f364 2%,#2bd52b 7%,#01a401 95%,#006900 100%);
+}
+
+@media all and (min-width: 910px) and (max-width: 1180px) {
+  .small {
+    width: 180px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 30px;
+  }
+
+  .large {
+    width: 214px;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+  }
+}
